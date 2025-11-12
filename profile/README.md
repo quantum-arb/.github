@@ -1,12 +1,34 @@
-## Hi there 👋
+# Quantum Arb
 
-<!--
+**Quantum Arb** — is a public on-chain arbitrage system on the Solana blockchain. All calculations and simulations are performed directly in the on-chain program, not on the client side. Transactions are executed only when there is real profit, and incorrect ones are rejected. Quantum Arb is free to use and takes **15% fee on profits**.
 
-**Here are some ideas to get you started:**
+[👉 **Learn more**](https://quantum-arb.gitbook.io/docs/overview/what-is-arbitrage)
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Key Features
+
+**Two strategies:** \
+Backrun — reactive arbitrage triggered by on-chain signals. \
+Transaction Spam — continuously sends pre-prepared transactions.
+
+**Multi-DEX support:** \
+Meteora DLMM / DAMM V2, Raydium CLMM / AMM / CPMM, PumpSwap.
+
+**Transaction Processors:** \
+Jito, Nozomi, ZeroSlot, NextBlock, Sender, BlockRazor, Astraline, Fast — configurable with TPS limits, TIPs, proxies, and API keys.
+
+**Flash Loans:** \
+KAMINO, Jupiter Lend (soon)
+
+**Safety Execution:** \
+Ensures no-loss execution — if the final balance after arbitrage is lower than the initial one, the transaction automatically reverts (only the priority fee is paid).
+
+**Full automation:** \
+Includes Pools Loader and Table Lookup Manager — automatically manages pools and Address Lookup Tables (ALTs) for 24/7 operation.
+
+## Links
+
+| Social  | Link |
+| ------------- |:-------------:|
+| Discord      | https://discord.gg/nE7tydmk8V     |
+| X (Twitter)      | https://x.com/quantum_arb     |
+| GitBook | https://quantum-arb.gitbook.io/docs |
